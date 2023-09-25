@@ -1,0 +1,60 @@
+
+.centered-box {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .box {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    max-width: 320px;
+        width: 100%;
+  }
+  
+  .tick-icon {
+    width: 60px; 
+    height: 50px;
+        background-color: #ff6b6b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white; 
+    /* margin: 0 auto; */
+  }
+  
+  .success-heading {
+    font-size: 2rem; 
+    margin-top: 20px;
+    font-weight: bold; 
+    text-align: center;    
+}
+  
+
+.success-email {
+    font-weight: bold;
+    color: black;
+  }
+  
+
+.submit-button {
+    background-color:rgb(54, 56, 77); 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+  }
+  
+  .submit-button:hover {
+    background-color:rgb(59, 65, 129); 
+  }
+  
